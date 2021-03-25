@@ -7,4 +7,9 @@ def do_fizzbuzz(n):
         elif i%5==0:
             print(i, ":buzz")
 
+def init():
+    num = input("Enter the number: ")
+    do_fizzbuzz(int(num))
 
+if __name__=="__main__":
+    init()
