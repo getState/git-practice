@@ -6,6 +6,8 @@ def do_fizzbuzz(n):
             print(i, ": fizz")
         elif i%5==0:
             print(i, ":buzz")
+        else:
+            print(i)
 
 def init():
     num = input("Enter the number: ")
